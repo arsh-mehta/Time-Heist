@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Time Heist</title>
+
+    <style>
+        body{
+            background: black;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            font-family: 'Courier New', Courier, monospace;
+        }
+        .gameover{
+            position: relative;
+            width: 40%;
+            height: 60vh;
+            background: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+        .text{
+            font-size: 50px;
+            color: crimson;
+        }
+        .go-back{
+            text-decoration: none;
+            color: white;
+            background: linear-gradient(45deg,#e66465, #9198e5);
+            width: 30%;
+            text-align: center;
+            height: 4vh;
+            padding: 10px;
+            font-size: 20px;
+            border-radius: 50px;
+        }
+    </style>
+</head>
+<body>
+    <div class="gameover">
+        <p class="text">Game Over</p>
+        <a href="index.html" class="go-back">Play Again</a>
+    </div>
+</body>
+</html>
